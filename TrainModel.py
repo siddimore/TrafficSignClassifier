@@ -13,7 +13,7 @@ epochs = 20
 learning_rate = 0.001
 batch_size = 64
 
-dataPath = '/Users/siddharthmore/trafficsignClassifier/trafficsign_images/'
+dataPath = 'yourPath/trafficsign_images/'
 train_data = dataPath + 'Train.csv'
 test_data = dataPath + "Test.csv"
 (trainX, trainY) = load_data(train_data)
